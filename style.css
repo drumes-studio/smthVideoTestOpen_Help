@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 800vh;
+    background: #fff;
+    overflow-x: hidden;
+    position: relative;
+}
+canvas {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+  .ll {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  svg path {
+    fill:rgb(165, 174, 179);
+  }
+  /* .container{
+    
+    width:50px;
+    padding: 3px;
+    height:50px;
+    border-radius:50%;
+    position:relative;
+    background: rgba(188, 190, 231, 0.363);
+    box-shadow:0 0 10px 10px rgba(188, 190, 231, 0.363);
+  }
+  
+  .container::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    border-radius:50%;
+    animation-name:pulse;
+    animation-duration:2s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+    box-shadow: 0 0 2px 10px rgba(188, 190, 231, 0.363);
+  }
+  
+  .container::after{
+    content:"";
+    position:absolute;
+    inset:0;
+    border-radius:50%;
+    animation-name:pulse;
+    animation-duration:2s;
+    animation-timing-function:linear;
+    animation-iteration-count:infinite;
+    animation-delay:1s;
+    box-shadow: 0 0 2px 10px rgba(188, 190, 231, 0.363);
+  }
+  
+  svg path {
+    fill: rgba(119, 144, 189, 0.747);
+  }
+  @keyframes pulse{
+    0%{
+      transform:scale(1);
+      opacity:0;
+    }
+    10%{
+      opacity:1;
+    }
+    100%{
+      transform:scale(2.3);
+      opacity:0;
+    }
+    
+    
+    
+  } */
+  
